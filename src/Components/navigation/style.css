@@ -1,0 +1,14 @@
+.nav{
+    width: 250px;
+    height: 600px;
+    background-color: #1a0033d5;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transition: 0.5s;
+}
+.nav:hover{
+    transition: 0.5s;
+    background-color: #1a0033;
+}
