@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-     <video className="background" src="/assets/background.mp4" autoPlay loop playsInline muted ></video>
+     <video className="background" src="background.mp4" autoPlay loop playsInline muted ></video>
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
      <ContentHolder Load={pages[currentPage]}/>
