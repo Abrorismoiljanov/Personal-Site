@@ -8,7 +8,7 @@ import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 
-import backgroundsrc from "src/assets/synthwave-aesthetics-moewalls-com.mp4"
+import backgroundsrc from "/public/synthwave-aesthetics-moewalls-com.mp4"
 
 
 function App() {
