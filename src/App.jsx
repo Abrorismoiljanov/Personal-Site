@@ -8,11 +8,10 @@ import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 
-import backgroundsrc from "public/synthwave-aesthetics-moewalls-com.mp4"
 
 
 function App() {
-  const [background, setbackground] = useState(backgroundsrc);
+
 
   const [currentPage, setCurrentPage] = useState("Home");
 
@@ -24,7 +23,7 @@ function App() {
 
   return (
     <>
-     <video className="background" src={background} autoPlay loop playsInline mute ></video>
+     <video className="background" src="/synthwave-aesthetics-moewalls-com.mp4" autoPlay loop playsInline mute ></video>
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
      <ContentHolder Load={pages[currentPage]}/>
