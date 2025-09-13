@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-     <video className="background" src="/synthwave-aesthetics-moewalls-com.mp4" autoPlay loop playsInline mute ></video>
+     <video className="background" src="/synthwave-aesthetics-moewalls-com.mp4" autoPlay loop playsInline muted ></video>
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
      <ContentHolder Load={pages[currentPage]}/>
