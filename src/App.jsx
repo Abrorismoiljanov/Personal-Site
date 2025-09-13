@@ -27,7 +27,7 @@ function App() {
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
      <ContentHolder Load={pages[currentPage]}/>
-      <Navigation/>
+
      </div>
     </>
   )
