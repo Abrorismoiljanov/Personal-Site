@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import ContentHolder from './Components/MainContent/Contentholder'
 import Navigation from './Components/navigation/Navigation'
@@ -23,7 +21,7 @@ function App() {
 
   return (
     <>
-     <video className="background" src="/video.mp4" autoPlay loop playsInline muted ></video>
+     <video className="background" src="/video.mp4" autoPlay loop playsInline muted></video>
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
      <ContentHolder Load={pages[currentPage]}/>
