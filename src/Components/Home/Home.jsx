@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Card from "../CardRecommendation/Card";
 
 function Home(){
     return(
@@ -25,6 +26,11 @@ function Home(){
             </p>
             <h2>My Skills</h2>
             <h2>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h2>
+            <div className="divs">
+                <Card text={"I use Arch Linux daily and use WM Hyprland. I use it for my daily development too."} image={"Linuxlogo.png"} />
+                <Card text={"C++ is one of my most favorite programming language. and yes we have Rust but as you can see there is no boykisser on my pfp"} image={"C++logo.png"} />
+                <Card text={"What else can I say? This my Portfolio is built on React and you can check my Git hub or projects section if you want"} image={"Reactlogo.png"} />
+            </div>
         </div>
 
 

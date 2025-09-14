@@ -23,11 +23,10 @@
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
-    animation: neonGlow 2s infinite alternate;
 
     background: linear-gradient(270deg, #ffff00, #00ff7f, #0ff, #ff00ff);
     background-size: 600% 600%;
-    animation: borderGradient 5s linear infinite;
+    animation: neonGlow 2s infinite alternate, borderGradient 5s linear infinite;
 }
 .pfp img {
   display: block;
@@ -93,4 +92,9 @@
 }
 .maintext h2{
     color: #00ff7f;
+}
+.divs{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

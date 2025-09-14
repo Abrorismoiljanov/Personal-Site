@@ -13,4 +13,5 @@
 .nav:hover{
     transition: 0.5s;
     background-color: #1a0033;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
 }
