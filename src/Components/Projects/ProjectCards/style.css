@@ -1,0 +1,49 @@
+.Pcard{
+    margin-top: 5px;
+    background: linear-gradient(270deg, #ffff00, #00ff7f, #0ff, #ff00ff);
+    animation: neonGlow 2s infinite alternate, borderGradient 5s linear infinite;
+    border-radius: 15px;
+    padding: 5px;
+    width: 90%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.Pcard:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.Ipcard{
+    background-color: #2a0152ec;
+    border-radius: 15px;
+    display: flex;
+}
+.Ipcard img{
+    border-radius: 15px;
+    width: 300px;
+}
+
+.information{
+    text-align: start;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.information p{
+    color: #ff00ff; 
+}
+.information a{
+    text-decoration: none;
+}
+.information a:visited {
+    color: #0ff;       
+    text-decoration: none;
+    transition: 1s;
+}
+.information a:hover{
+    transition: 1s;
+    margin-top: 10%;
+    color: #ffff00;       
+    text-decoration: none;
+}
+.af{
+    margin-top: 40px;
+}
