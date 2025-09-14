@@ -11,3 +11,12 @@
     transition: 1s;
     background-color: #FF4EF0;
 }
+
+@media (max-width: 480px) {
+    .btn{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}

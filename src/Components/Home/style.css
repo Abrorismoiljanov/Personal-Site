@@ -69,7 +69,8 @@
 
 .maintext{
     background-color: #28014d88;
-    height: 660px;
+    padding-bottom: 25px;
+    height: 60%;
     color: white;
     margin-top: 15px;
     border-radius: 15px;
@@ -83,6 +84,7 @@
     font-size: 40px;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #00ff7f;
 }
 .maintext p{
     gap: 20px;
@@ -93,8 +95,63 @@
 .maintext h2{
     color: #00ff7f;
 }
+.point{
+    color: #00ff7f;
+    font-size: 20px;
+    margin-top: 10px;
+}
 .divs{
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+@media (max-width: 480px) {
+  .profile{
+    width: 95%;
+    height: 20%;
+  }
+  .pfp{
+    width: 55px;
+    height: 55px;
+  }
+
+.text{
+    margin-top: 16px;
+    text-align: start;
+    margin-left: 15px;
+}.text h1{
+    color: aqua;
+    font-size: 12px;
+}
+.text h2{
+    color: #00ff7f;
+    font-size: 12px;
+}
+.text h3{
+    font-size: 9px;
+    color: #ffff00;
+    margin-top: 2px;
+}
+  .maintext{
+    width: 95%;
+
+  }
+  .maintext p{
+    width: 90%;
+  }
+  .maintext h2{
+    margin-top: 40%;
+  }
+  .point{
+    margin-top: 0%;
+    font-size: 12px;
+  }
+  .maintext h1{
+    color: #00ff7f;
+    font-size: 18px;
+  }
+  .divs{
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -62,3 +62,22 @@
     transition: 1s;
     transform: scale(1.1);
 }
+@media (max-width: 480px) {
+    .Info{
+        width: 85%;
+    }
+    .Info p{
+        width: 90%;
+    }
+    .image{
+        width: 100%;
+        padding: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .image img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

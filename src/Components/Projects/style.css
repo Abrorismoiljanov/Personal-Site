@@ -22,3 +22,9 @@
     scrollbar-color: transparent transparent;
     height: 840px;
 }
+    
+@media (max-width: 480px) {
+.ProjectHolder{
+    width: 85%;
+}
+}

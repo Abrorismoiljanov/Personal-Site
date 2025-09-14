@@ -15,3 +15,14 @@
     background-color: #1a0033;
     box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
 }
+
+@media (max-width: 480px) {
+    .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+    }
+}

@@ -1,5 +1,5 @@
 .contentholder{
-    width: 800px;
+    width: 42%;
     height: 900px;
     background-color: #2b003ee7;
     border-radius: 10px;
@@ -13,4 +13,10 @@
     box-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
     transform: scale(1.01);
     transition: 1s;
+}
+@media (max-width: 480px) {
+    .contentholder{
+        width: 90%;
+        height: 850%;
+    }
 }
