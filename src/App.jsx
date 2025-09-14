@@ -5,7 +5,7 @@ import Navigation from './Components/navigation/Navigation'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
-
+import Links from './Components/Links/Links'
 
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
      <video className="background" src="/video.mp4" autoPlay loop playsInline muted preload='auto' onLoadedMetadata={(e) => { e.target.muted = true; }}></video>
      <div className="layout">
       <Navigation setCurrentPage={setCurrentPage}/>
-     <ContentHolder Load={pages[currentPage]}/>
-
+      <ContentHolder Load={pages[currentPage]}/>
+      <Links/>
      </div>
     </>
   )

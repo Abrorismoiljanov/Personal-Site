@@ -1,0 +1,46 @@
+.Links{
+    width: 250px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.list{
+    list-style: none;
+}
+.list  li{
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a0033d5;
+    box-shadow: 0px 0px 5px 5px #1a0033;
+    padding: 0;
+    transition: 1s;
+}
+.list li:hover{
+    transition: 0.5s;
+    background-color: #1a0033;
+    transform: scale(1.1);
+}
+.list li a{
+    text-decoration: none;
+    color: #0ff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.list li a:visited {
+    color: #0ff;       /* same as normal color */
+    text-decoration: none;
+}
+.list li a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}

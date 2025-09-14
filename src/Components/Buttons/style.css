@@ -1,9 +1,10 @@
 .btn{
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #00FFF7;
     background-color: #ff4ef091;
-    border-radius: 5px;
+    border-image: linear-gradient(to right, #0ff, #f0f, #ff0, #0f0) 0.5;
     transition: 1s;
 }
 .btn:hover{
