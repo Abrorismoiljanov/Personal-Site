@@ -24,8 +24,10 @@ function Home(){
                  I also bring worlds to life using Blender 3D and OpenGL, blending creativity with technology.
                  My passion is exploring the limits of coding, 3D design, and graphics, turning ideas into digital reality
             </p>
-            <h2>My Skills</h2>
-            <h4 className="point">↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h4>
+            <div className="low">
+                    <h2>My Skills</h2>
+            <h2>↓↓↓↓↓↓↓↓↓↓↓</h2>
+            </div>
             <div className="divs">
                 <Card text={"I use Arch Linux daily and use WM Hyprland. I use it for my daily development too."} image={"Linuxlogo.png"} />
                 <Card text={"C++ is one of my most favorite programming language. and yes we have Rust but as you can see there is no boykisser on my pfp"} image={"C++logo.png"} />
